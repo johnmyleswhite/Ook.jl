@@ -31,10 +31,10 @@ path = Pkg.dir("Ook", "test", "programs", "squares.ook")
 ook(readall(path), debug = true)
 ```
 
-*Be warned that the state evolution of the Ook interpret will produce a lot of
-output for even these simple programs.*
+*Be warned that the state evolution of the Ook! interpreter will produce a lot
+of output for even the simplest programs.*
 
-# Ook Language Reference
+# Ook! Language Reference
 
 **OP1: Ook. Ook?**
 
