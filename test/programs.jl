@@ -12,10 +12,10 @@ module TestPrograms
     ops = Ook.parse(Ook.lex(text))
     io = IOBuffer()
     Ook.interpret(ops, io_out = io)
-	output = takebuf_string(io)
-	reference = ""
-	for i in 0:100
-		reference = string(reference, @sprintf("%d\n", i^2))
-	end
-	@test output == reference
+    output = takebuf_string(io)
+    reference = ""
+    for i in 0:100
+        reference = string(reference, @sprintf("%d\n", i^2))
+    end
+    @test output == reference
 end

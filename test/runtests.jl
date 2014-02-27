@@ -9,9 +9,9 @@ using Base.Test
 using Ook
 
 my_tests = [
-	"lex.jl",
-	"parse.jl",
-	"interpret.jl",
+    "lex.jl",
+    "parse.jl",
+    "interpret.jl",
     "programs.jl"
 ]
 
